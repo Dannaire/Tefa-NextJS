@@ -548,3 +548,45 @@
     }
     
   }
+  @media screen and (min-width: 768px){
+
+    .left-column h2{
+      font-size: 42px;
+    }
+    .left-column p{
+      font-size: 20px;
+    }
+    .right-background{
+      width: 87%;
+      height: 500px;
+    }
+    .image-1, .image-4 {
+      grid-column: 1 / 2;
+      grid-row: 1 / -1;
+      margin: 0 auto;
+      padding-top: 8%;
+      width: 50%;
+    }
+    
+    .image-2, .image-3 {
+      grid-column: 2 / -1;
+      grid-row: 1 / -1;
+      margin: 0 auto;
+      padding-top: 10%;
+      width: 50%;
+    }
+  }
+  @media screen and (min-width: 828px) and (max-width: 1000px){
+  .container-top{
+    height: 60vh;
+  }
+  .merek-card-1, .merek-card-2, .merek-card-3, .merek-card-4{
+    height: 25%;
+  }
+  .merek-container{
+    height: 40vh;
+  }
+  .brand-wrapper{
+    height: 40vh;
+  }
+  }
