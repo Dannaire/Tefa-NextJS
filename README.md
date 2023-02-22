@@ -6,11 +6,8 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# Responsive Tab
+![image](https://user-images.githubusercontent.com/101534120/220785293-113cf9e8-47c9-4276-87dc-4d31d184b8f8.png)
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
