@@ -4,7 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Responsive Tab
 ![image](https://user-images.githubusercontent.com/101534120/220785293-113cf9e8-47c9-4276-87dc-4d31d184b8f8.png)
 ## Responsive Mobile
-![image](https://user-images.githubusercontent.com/101534120/220785719-599abb19-618c-4688-a103-e29aef74f625.png)
+![image](https://user-images.githubusercontent.com/101534120/220785915-f3a6b457-d6e5-4c0a-98b7-27affb6937b8.png)
+
 
 
 First, run the development server:
