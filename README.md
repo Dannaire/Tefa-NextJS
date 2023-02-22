@@ -1,13 +1,14 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 # Responsive Web
 ## Vercel: https://zidanenextjs.vercel.app/
+# Responsive Tab
+![image](https://user-images.githubusercontent.com/101534120/220785293-113cf9e8-47c9-4276-87dc-4d31d184b8f8.png)
 
 First, run the development server:
 
 ```bash
 npm run dev
-# Responsive Tab
-![image](https://user-images.githubusercontent.com/101534120/220785293-113cf9e8-47c9-4276-87dc-4d31d184b8f8.png)
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
