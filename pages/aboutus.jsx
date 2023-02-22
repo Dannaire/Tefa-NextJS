@@ -5,7 +5,7 @@
 import Link from 'next/link';
 import Navbar from '@/components/nav';
 import Image from 'next/image';
-import contactfoto from '../public/Assets/image/aboutmefoto.JPG'
+import contactfoto from '../public/Assets/image/aboutmefoto.png'
 
 // const inter = Inter({ subsets: ['latin'] })
 
