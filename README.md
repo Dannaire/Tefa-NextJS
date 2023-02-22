@@ -3,6 +3,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Vercel: https://zidanenextjs.vercel.app/
 ## Responsive Tab
 ![image](https://user-images.githubusercontent.com/101534120/220786334-3564d4ab-7aaa-4512-b5c2-b0816395343a.png)
+![image](https://user-images.githubusercontent.com/101534120/220786613-a15e0292-b127-423b-8f2d-55215ba51331.png)
+
 
 ## Responsive Mobile
 ![image](https://user-images.githubusercontent.com/101534120/220785915-f3a6b457-d6e5-4c0a-98b7-27affb6937b8.png)
