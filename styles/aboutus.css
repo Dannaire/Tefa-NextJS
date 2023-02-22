@@ -1,0 +1,254 @@
+.contact-title {
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight:700;
+    font-size: 59px;
+    line-height: 80px;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    text-align: center;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: 120px;
+    position: relative;
+  }
+  .contact-title::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15%;
+    height: 2px;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+  }
+  .contact-content {
+    display: flex;
+    flex-direction: row;
+    background: rgba(53, 53, 53, 0.35);
+    /* background-image: url(../image/karya-content-1.png); */
+    justify-content: center;
+    align-items: center;
+    height: 512px;
+    width: 50%;
+    margin: 50px auto;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+    box-shadow: 4px 0px 24px rgba(75, 126, 255, 0.24), 0px 4px 24px rgba(75, 126, 255, 0.6);
+    padding: 10px;
+  }
+  .contact-content-title {
+    padding-top: 20px;
+    margin: 0 auto;
+    /* border: 1px solid white; */
+    /* padding-left: 80px; */
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight:700;
+    font-size: 24px;
+    /* line-height: 91px; */
+    text-align: center;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .contact-content-subtitle {
+    margin: 0 auto;
+    padding-top: 10px;
+    /* border: 1px solid red; */
+    /* padding-left: 80px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .contact-wrapper {
+    padding-bottom: 80px;
+    /* border: 1px solid green; */
+    margin-top: 75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex: 1;
+        padding-left: 10px;
+  }
+  .contact-foto{
+    margin: 0 auto;
+    box-shadow: 4px 0px 24px rgba(75, 126, 255, 0.24), 0px 4px 24px rgba(75, 126, 255, 0.6);
+    border-radius: 50%;
+    /* border: 1px solid green; */
+    /* background-image: url(../image/aboutmefoto.JPG); */
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+  }
+  .contact-foto img{
+    border-radius: 50%;
+    /* border: 1px solid green; */
+    /* background-image: url(../image/aboutmefoto.JPG); */
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+  }
+  .contact-button {
+    display: block;
+    width: 60%;
+    margin: 40px auto;
+    padding: 20px 0px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    background: linear-gradient(92deg, #00A3FF 23.7%, #00FFF0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-radius: 5px;
+    transition: all 0.3s;
+    /* border: 1px solid blue; */
+    box-shadow: 4px 0px 24px rgba(75, 126, 255, 0.24), 0px 4px 24px rgba(75, 126, 255, 0.6);
+    border-radius: 12px;
+    float: left;
+  }
+  
+  .contact-button:hover {
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  .contact-sosmed{
+    margin: 0 auto;
+    border-radius: 100px;
+    box-shadow: 4px 0px 24px rgba(75, 90, 255, 0.24), 0px 4px 24px rgba(75, 87, 255, 0.6);
+  }
+  *:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
+}
+.sosmed-wrapper {
+  padding: 1px;
+  margin: 0 auto;
+  display: inline-flex;
+  list-style: none;
+}
+
+.sosmed-wrapper .icon {
+  position: relative;
+  background: #ffffff;
+  color: #002fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sosmed-wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sosmed-wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.sosmed-wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.sosmed-wrapper .icon:hover span,
+.sosmed-wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.sosmed-wrapper .Spotify:hover,
+.sosmed-wrapper .Spotify:hover .tooltip,
+.sosmed-wrapper .Spotify:hover .tooltip::before {
+  background: #32750e;
+  color: #ffffff;
+}
+
+.sosmed-wrapper .linkedin:hover,
+.sosmed-wrapper .linkedin:hover .tooltip,
+.sosmed-wrapper .linkedin:hover .tooltip::before {
+  background: #1d80f2;
+  color: #ffffff;
+}
+
+.sosmed-wrapper .instagram:hover,
+.sosmed-wrapper .instagram:hover .tooltip,
+.sosmed-wrapper .instagram:hover .tooltip::before {
+  background: #E4405F;
+  color: #ffffff;
+}
+
+.sosmed-wrapper .github:hover,
+.sosmed-wrapper .github:hover .tooltip,
+.sosmed-wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
+
+.sosmed-wrapper .youtube:hover,
+.sosmed-wrapper .youtube:hover .tooltip,
+.sosmed-wrapper .youtube:hover .tooltip::before {
+  background: #CD201F;
+  color: #ffffff;
+}
+  @media only screen and (max-width: 768px) {
+  .contact-content{
+    width: 80%;
+  }
+  .contact-title{
+    font-size: 40px;
+  }
+  .contact-title::after{
+    width: 50%;
+  }
+  .contact-sosmed{
+    box-shadow: none;
+  }
+  
+  }
