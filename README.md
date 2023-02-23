@@ -3,6 +3,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Vercel: https://zidanenextjs.vercel.app/
 ## Mac
 ![image](https://user-images.githubusercontent.com/101534120/220801044-988a20cd-dc98-41a1-a48e-d39c741310ce.png)
+![image](https://user-images.githubusercontent.com/101534120/220801513-47a84191-cb20-4fcf-8293-231ab8d651ed.png)
+![image](https://user-images.githubusercontent.com/101534120/220801571-dd28eee8-a4ac-4031-aa72-ac2dba55990a.png)
+
 
 ## Responsive Tab
 ![image](https://user-images.githubusercontent.com/101534120/220786334-3564d4ab-7aaa-4512-b5c2-b0816395343a.png)
