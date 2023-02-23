@@ -1,6 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 # Responsive Web
 ## Vercel: https://zidanenextjs.vercel.app/
+## Mac
+![image](https://user-images.githubusercontent.com/101534120/220801044-988a20cd-dc98-41a1-a48e-d39c741310ce.png)
+
 ## Responsive Tab
 ![image](https://user-images.githubusercontent.com/101534120/220786334-3564d4ab-7aaa-4512-b5c2-b0816395343a.png)
 ![image](https://user-images.githubusercontent.com/101534120/220786613-a15e0292-b127-423b-8f2d-55215ba51331.png)
