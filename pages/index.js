@@ -1,7 +1,4 @@
-// import Head from 'next/head'
-// import Image from 'next/image'
-// import { Inter } from '@next/font/google'
-// import styles from '@/styles/Home.module.css'
+
 import Link from 'next/link';
 import Navbar from '@/components/nav';
 import Image from 'next/image';
@@ -12,8 +9,6 @@ import nb from '../public/Assets/image/nblogo.png';
 import nike from '../public/Assets/image/nikelogo.png';
 import puma from '../public/Assets/image/pumalogo.png';
 import Favorite from './favorite';
-
-// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
