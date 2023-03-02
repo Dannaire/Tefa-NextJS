@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    line-height: 1.5;
+}
+.card-con{
+    margin-top: 2%;
+}
+.card-wrapper{
+    max-width: 1100px;
+    margin-top: 100px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.img-display{
+    overflow: hidden;
+}
+.img-showcase{
+    display: flex;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.img-showcase img{
+    min-width: 100%;
+}
+.img-select{
+    display: flex;
+}
+.img-item{
+    margin: 0.3rem;
+}
+.img-item:nth-child(1),
+.img-item:nth-child(2),
+.img-item:nth-child(3){
+    margin-right: 0;
+}
+.img-item:hover{
+    opacity: 0.8;
+}
+.product-content{
+    padding: 2rem 1rem;
+}
+.product-title{
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 24px;
+
+color: #FFFFFF;
+    text-transform: capitalize;
+    margin: 1rem 0;
+}
+/* .product-title::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    background: #12263a;
+} */
+.product-link{
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    background: #ff2525;
+    color: #fff;
+    padding: 0 0.3rem;
+    transition: all 0.5s ease;
+}
+.product-link:hover{
+    opacity: 0.9;
+}
+.product-rating{
+    color: #ffc107;
+}
+.product-rating span{
+    font-weight: 600;
+    color: #ffffff;
+}
+.product-price{
+    font-family: 'Syne';
+    margin: 1rem 0;
+    font-size: 1rem;
+    font-weight: 200;
+}
+.product-price span{
+    font-weight: 400;
+}
+.last-price{
+    font-family: 'Syne';
+    color: #FFFFFF;
+}
+.last-price span{
+    color: #f64749;
+    text-decoration: line-through;
+}
+.new-price{
+    font-family: 'Syne';
+    font-size: 38px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.new-price span{
+    font-family: 'Syne';
+    color:#FFFFFF;
+    
+}
+.product-detail h2{
+    text-transform: capitalize;
+    color: #ffffff;
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+    padding-bottom: 0.6rem;
+}
+.product-detail p{
+    font-family: 'Syne';
+font-style: normal;
+font-weight: 400;
+font-size: 0.8rem;
+line-height: 20px;
+/* or 100% */
+
+
+color: #8D8D8D;
+    padding: 0.3rem;
+    
+}
+.product-detail ul{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+.product-detail ul li{
+    margin: 0;
+    font-family: 'Syne';
+    color: #FFFFFF;
+    font-weight: 600;
+    list-style: none;
+    background: url(https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/checked.png) left center no-repeat;
+    background-size: 18px;
+    padding-left: 1.7rem;
+    margin: 0.4rem 0;
+    opacity: 0.9;
+}
+.product-detail ul li span{
+    font-weight: 400;
+}
+.purchase-info {
+    display: flex;
+  }
+  
+  .count-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn {
+    cursor: pointer;
+    background: transparent;
+    border: 1.5px solid rgb(255, 55, 55);
+    color: #FFFFFF;
+    border-radius: 120px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-trash {
+    cursor: pointer;
+    background: transparent;
+    padding: 0.45rem 0.8rem;
+    border-radius: 120px;
+    color: #FFFFFF;
+    border: 1.5px solid rgb(255, 55, 55);
+    outline: 0;
+    margin-right: 0.4rem;
+    margin-bottom: 1rem;
+  }
+  .btn:hover{
+    animation: red-glow 1s ease-in-out infinite alternate;
+  }
+  @keyframes red-glow {
+    from {
+      box-shadow: 0 0 1px #f31515, 0 0 10px #f31515, 0 0 1px #f31515, 0 0 10px #f31515, 0 0 10px #f31515;
+    }
+    to {
+      box-shadow: none;
+    }
+  }
+  .btn-neon {
+    cursor: pointer;
+    background: transparent;
+    border: 1.5px solid rgb(255, 55, 55);
+    color: #FFFFFF;
+    border-radius: 120px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+    border-color: #00ff00; /* change to your desired neon green color */
+    /* box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 70px #00ff00; */
+  }
+  
+  .btn-neon:hover {
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 1px #00ff00, 0 0 10px #00ff00, 0 0 1px #00ff00, 0 0 10px #00ff00, 0 0 10px #00ff00;
+    }
+    to {
+      box-shadow: none;
+    }
+  }
+  
+  input[type=number] {
+    width: 50px;
+    cursor: default ;
+    text-align: center;
+    padding: 0.45rem 0.3rem;
+    margin-right: 0.3rem;
+    margin-bottom: 1rem;
+    border: 1.5px solid rgb(255, 55, 55);
+    border-radius: 120px;
+    background: transparent;
+    color: #FFFFFF;
+  }
+  
+.social-links{
+    display: flex;
+    align-items: center;
+}
+.social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    margin: 0 0.2rem;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 0.8rem;
+    transition: all 0.5s ease;
+}
+.social-links a:hover{
+    background: rgb(255, 255, 255);
+    border-color: transparent;
+    color: #fff;
+}
+.social-links p{
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 992px){
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1.5rem;
+    }
+    .card-wrapper{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product-content{
+        padding-top: 0;
+    }
+}

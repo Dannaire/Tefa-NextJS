@@ -1,0 +1,52 @@
+[
+      {
+      "id": 1,
+      "name": "Nike Air Max 270",
+      "brand": "Nike",
+      "category": "Athletic Shoes",
+      "price": 120.00,
+      "description": "The Nike Air Max 270 delivers visible air under every step with a lightweight and breathable design. It has a large Max Air unit for cushioning and a rubber outsole for durable traction.",
+      "image": "/Assets/image/airmax-shoe.png",
+      "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "colors": ["Black/White", "White/Black", "Pink/White"],
+      "gender": "Men's"
+    },
+    {
+      "id": 2,
+      "name": "Adidas Ultraboost 21",
+      "brand": "Adidas",
+      "category": "Running Shoes",
+      "price": 180.00,
+      "description": "The Adidas Ultraboost 21 is designed for runners seeking a responsive and comfortable ride. It features an updated Primeknit upper and Boost cushioning for a smooth and energized stride.",
+      "image": "/Assets/image/ultraboost-shoe.png",
+      "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "colors": ["Black/White", "White/Black", "Blue/White"],
+      "gender": "Men's"
+    },
+    {
+      "id": 3,
+      "name": "Vans Old Skool",
+      "brand": "Vans",
+      "category": "Casual Shoes",
+      "price": 65.00,
+      "description": "The Vans Old Skool is a classic skate shoe that's been reimagined as a fashion staple. It features a low profile design and the iconic side stripe.",
+      "image": "/Assets/image/vans-shoe.png",
+      "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "colors": ["Black/White", "White/Black", "Red/White"],
+      "gender": "Unisex"
+    },
+    {
+      "id": 4,
+      "name": "Converse Chuck Taylor",
+      "brand": "Converse",
+      "category": "Casual Shoes",
+      "price": 55.00,
+      "description": "The Converse Chuck Taylor All Star is a timeless classic that's perfect for any casual outfit. It features a canvas upper and the iconic rubber toe cap.",
+      "image": "/Assets/image/converse-shoe.png",
+      "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "colors": ["Black/White", "White/Black", "Navy/White"],
+      "gender": "Unisex"
+    }
+]
+
+  

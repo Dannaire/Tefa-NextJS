@@ -23,6 +23,7 @@ export default function Navbar() {
                <li><Link href="/">Home</Link></li> 
                <li><Link href="/favorite">Best Seller</Link></li> 
                <li><Link href="/aboutus">Developer</Link></li> 
+               {/* <li><Link href="/detail">Detail</Link></li>  */}
                <li><Link href="https://muhammadzidaneportfolio.vercel.app/" target='_blank'>Portfolio</Link></li> 
                 </ul>
                 </div>
