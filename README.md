@@ -1,20 +1,20 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 # Responsive Web
 ## Vercel: https://zidanenextjs.vercel.app/
-## Mac
+## Laptop
 ![image](https://user-images.githubusercontent.com/101534120/220801044-988a20cd-dc98-41a1-a48e-d39c741310ce.png)
-![image](https://user-images.githubusercontent.com/101534120/220801513-47a84191-cb20-4fcf-8293-231ab8d651ed.png)
+![image](https://user-images.githubusercontent.com/101534120/222560746-2cb50bd7-5d4b-43a3-84e7-ade4ec4fc506.png)
 ![image](https://user-images.githubusercontent.com/101534120/220801571-dd28eee8-a4ac-4031-aa72-ac2dba55990a.png)
 
 
 ## Responsive Tab
 ![image](https://user-images.githubusercontent.com/101534120/220786334-3564d4ab-7aaa-4512-b5c2-b0816395343a.png)
-![image](https://user-images.githubusercontent.com/101534120/220786613-a15e0292-b127-423b-8f2d-55215ba51331.png)
+
 
 
 ## Responsive Mobile
 ![image](https://user-images.githubusercontent.com/101534120/220785915-f3a6b457-d6e5-4c0a-98b7-27affb6937b8.png)
-![image](https://user-images.githubusercontent.com/101534120/220786089-dc93b810-9276-4bd6-b306-4f0de8da7ea7.png)
+![image](https://user-images.githubusercontent.com/101534120/222560374-7a143438-01be-4f45-b60f-494c8782c756.png)
 ![image](https://user-images.githubusercontent.com/101534120/220786218-7be51904-1085-4a73-b64a-464c54748642.png)
 
 
