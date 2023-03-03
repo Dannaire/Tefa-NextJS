@@ -11,6 +11,7 @@
       "image3": "/Assets/image/airmax3-shoe.png",
       "image4": "/Assets/image/airmax3-shoe.png",
       "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "available":"In Stock",
       "colors": ["Black/White", "White/Black", "Pink/White"],
       "gender": "Men's"
     },
@@ -24,6 +25,7 @@
       "image": "/Assets/image/ultra3.jpg",
       "image2": "/Assets/image/ultraboost-shoe.png",
       "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "available":"In Stock",
       "colors": ["Black/White", "White/Black", "Blue/White"],
       "gender": "Men's"
     },
@@ -36,6 +38,7 @@
       "description": "The Vans Old Skool is a classic skate shoe that's been reimagined as a fashion staple. It features a low profile design and the iconic side stripe.",
       "image": "/Assets/image/vans2.jpg",
       "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "available":"In Stock",
       "colors": ["Black/White", "White/Black", "Red/White"],
       "gender": "Unisex"
     },
@@ -48,6 +51,7 @@
       "description": "The Converse Chuck Taylor All Star is a timeless classic that's perfect for any casual outfit. It features a canvas upper and the iconic rubber toe cap.",
       "image": "/Assets/image/converse2.jpg",
       "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "available":"In Stock",
       "colors": ["Black/White", "White/Black", "Navy/White"],
       "gender": "Unisex"
     },
@@ -60,6 +64,7 @@
       "description": "The YEEZY BOOST 350 V2features an upper composed of re-engineered Primeknit. The post-dyed monofilament side stripe is woven into the upper. Reflective threads are woven into the laces. The midsole utilizes adidas innovative BOOST™ technology.",
       "image": "/Assets/image/yeezy1.jpg",
       "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "available":"In Stock",
       "colors": ["Black/White", "White/Black", "Navy/White"],
       "gender": "Unisex"
     },
@@ -72,6 +77,7 @@
       "description": "Every time the AJ1 gets a remake, you get the classic sneaker in new colours and textures for an exciting, revamped look but with all the familiar comforts you know. Premium materials and accents give modern expression to an all-time favourite.",
       "image": "/Assets/image/jordan2.jpg",
       "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "available":"In Stock",
       "colors": ["Black/White", "White/Black", "Navy/White"],
       "gender": "Unisex"
     },
@@ -84,6 +90,7 @@
       "description": "The KARL LAGERFELD Sneakers striped logo and reflective accents combine with a bulky rubber sole to create a futuristic vision of wavy disproportions.",
       "image": "/Assets/image/puma1.jpg",
       "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "available":"In Stock",
       "colors": ["Black/White", "White/Black", "Navy/White"],
       "gender": "Women's"
     },
@@ -96,6 +103,7 @@
       "description": "New Balance featuring a lace-up front fastening, a flat heel, a round toe and a panelled colour block design. These styles are supplied by a premium sneaker and street wear marketplace. Stocking only the most sought-after footwear and clothing, they source and curate some of the most hard-to-find items from around the world.      ",
       "image": "/Assets/image/nb1.jpg",
       "sizes": ["6", "6.5", "7", "7.5", "8", "8.5", "9", "9.5", "10"],
+      "available":"In Stock",
       "colors": ["Black/White", "White/Black", "Navy/White"],
       "gender": "Unisex"
     }

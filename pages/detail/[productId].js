@@ -93,7 +93,7 @@ export default function Detail() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde.</p>
               <ul>
                 <li>Color: <span>{product.colors}</span></li>
-                <li>Available: <span>in stock</span></li>
+                <li>Available: <span>{product.available}</span></li>
                 <li>Category: <span>{product.category}</span></li>
                 <li>Gender: <span>{product.gender}</span></li>
                 <li>Shipping Fee: <span>Free</span></li>
