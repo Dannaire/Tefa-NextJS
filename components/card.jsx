@@ -51,12 +51,12 @@ export default function Card() {
         <p className='subtitle'>Check out our most popular products</p>
         <div className='filter-bar'>
           <input type='text' placeholder='Search products...' value={searchValue} onChange={handleSearch} />
-          <select onChange={handleFilter}>
+          {/* <select onChange={handleFilter}>
             <option value=''>All categories</option>
             <option value='converse'>Converse</option>
             <option value='clothing'>Clothing</option>
             <option value='accessories'>Accessories</option>
-          </select>
+          </select> */}
         </div>
         <div className='card-group'>
           {filteredResults.map((product, index) => (
